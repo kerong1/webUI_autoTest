@@ -1,0 +1,15 @@
+2019-02-27 20:32:32,829 - BrowserEngine - INFO - 读取浏览器成功
+2019-02-27 20:32:32,829 - BrowserEngine - INFO - 找到URL：http://127.0.0.1/forum.php
+2019-02-27 20:32:37,004 - BrowserEngine - INFO - 谷歌浏览器
+2019-02-27 20:32:37,974 - BrowserEngine - INFO - 打开浏览器http://127.0.0.1/forum.php
+2019-02-27 20:32:39,344 - BasePage - INFO - 输入内容
+2019-02-27 20:32:39,475 - BasePage - INFO - 输入内容
+2019-02-27 20:32:52,410 - BasePage - INFO - 输入内容
+2019-02-27 20:32:53,034 - BasePage - INFO - 输入内容
+2019-02-27 20:32:53,334 - BasePage - INFO - 输入内容
+2019-02-27 20:33:06,017 - BasePage - INFO - 获取内容成功
+2019-02-27 20:33:06,247 - BasePage - INFO - 获取内容成功
+2019-02-27 20:33:06,324 - BasePage - INFO - 获取内容成功
+2019-02-27 20:33:06,393 - BasePage - INFO - 获取内容成功
+2019-02-27 20:33:06,460 - BasePage - INFO - 获取内容成功
+2019-02-27 20:33:11,480 - BrowserEngine - INFO - 关闭浏览器

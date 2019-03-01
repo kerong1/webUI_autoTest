@@ -1,0 +1,10 @@
+import logging
+logger=logging.getLogger()
+logger.setLevel(logging.DEBUG)
+ch=logging.StreamHandler()
+fh=logging.FileHandler(r"../log/logger")
+logger.addHandler(fh)
+logger.addHandler(ch)
+formatter=logging.Formatter("%(asctime)s - %(name)s -%(levelname)s -%(message)s")
+fh.setFormatter(formatter)
+ch.setFormatter(formatter)

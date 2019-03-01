@@ -1,0 +1,14 @@
+2019-02-27 20:21:39,128 - BrowserEngine - INFO - 读取浏览器成功
+2019-02-27 20:21:39,129 - BrowserEngine - INFO - 找到URL：http://127.0.0.1/forum.php
+2019-02-27 20:21:42,800 - BrowserEngine - INFO - 谷歌浏览器
+2019-02-27 20:21:43,541 - BrowserEngine - INFO - 打开浏览器http://127.0.0.1/forum.php
+2019-02-27 20:21:44,947 - BasePage - INFO - 输入内容
+2019-02-27 20:21:45,138 - BasePage - INFO - 输入内容
+2019-02-27 20:21:58,074 - BasePage - INFO - 输入内容
+2019-02-27 20:21:58,354 - BasePage - INFO - 输入内容
+2019-02-27 20:21:58,594 - BasePage - INFO - 输入内容
+2019-02-27 20:22:11,170 - BasePage - INFO - 获取内容成功
+2019-02-27 20:22:11,359 - BasePage - INFO - 获取内容成功
+2019-02-27 20:22:21,453 - BasePage - ERROR - <Pageobjects.discuz_homepage.ToupiaoPage object at 0x000002461EA44DA0>未找到页面('css selector', '.pcht nth-child(3) .pvt')元素
+2019-02-27 20:22:22,027 - BasePage - INFO - 获取内容成功
+2019-02-27 20:22:22,027 - BrowserEngine - INFO - 关闭浏览器

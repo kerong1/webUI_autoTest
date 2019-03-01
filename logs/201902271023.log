@@ -1,0 +1,10 @@
+2019-02-27 10:23:08,085 - BrowserEngine - INFO - 读取浏览器成功
+2019-02-27 10:23:08,095 - BrowserEngine - INFO - 找到URL：http://127.0.0.1/forum.php
+2019-02-27 10:23:12,027 - BrowserEngine - INFO - 谷歌浏览器
+2019-02-27 10:23:12,810 - BrowserEngine - INFO - 打开浏览器http://127.0.0.1/forum.php
+2019-02-27 10:23:14,212 - BasePage - INFO - 输入内容
+2019-02-27 10:23:14,358 - BasePage - INFO - 输入内容
+2019-02-27 10:23:21,754 - BasePage - INFO - 输入内容
+2019-02-27 10:23:22,271 - BasePage - INFO - 输入内容
+2019-02-27 10:23:28,221 - BasePage - INFO - 输入内容
+2019-02-27 10:23:28,724 - BrowserEngine - INFO - 关闭浏览器

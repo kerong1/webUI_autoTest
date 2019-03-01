@@ -1,0 +1,9 @@
+2019-02-27 20:09:17,797 - BrowserEngine - INFO - 读取浏览器成功
+2019-02-27 20:09:17,798 - BrowserEngine - INFO - 找到URL：http://127.0.0.1/forum.php
+2019-02-27 20:09:21,548 - BrowserEngine - INFO - 谷歌浏览器
+2019-02-27 20:09:22,393 - BrowserEngine - INFO - 打开浏览器http://127.0.0.1/forum.php
+2019-02-27 20:09:23,726 - BasePage - INFO - 输入内容
+2019-02-27 20:09:23,856 - BasePage - INFO - 输入内容
+2019-02-27 20:09:36,738 - BasePage - INFO - 输入内容
+2019-02-27 20:09:47,144 - BasePage - ERROR - <Pageobjects.discuz_homepage.ToupiaoFatiePage object at 0x00000203BFA89F28>未找到页面('id', 'pollUploadProgress_1')元素
+2019-02-27 20:09:47,186 - BrowserEngine - INFO - 关闭浏览器

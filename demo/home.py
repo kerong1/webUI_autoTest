@@ -1,0 +1,43 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+import time
+import  os
+dir=os.path.dirname(__file__)
+path=dir+"/chromedriver.exe"
+driver=webdriver.Chrome(path)
+driver.get("http://127.0.0.1/forum.php")
+name=driver.find_element_by_name("username")
+name.send_keys("admin")
+pwd=driver.find_element_by_name("password")
+pwd.send_keys("root")
+button=driver.find_element_by_css_selector("button em")
+button.click()
+driver.switch_to.window(driver.current_window_handle)
+time.sleep(7)
+
+
+moren=driver.find_element_by_css_selector(".fl_icn a")
+moren.click()
+driver.switch_to.window(driver.current_window_handle)
+fatie=driver.find_element_by_id("newspecial")
+fatie.click()
+driver.switch_to.window(driver.current_window_handle)
+title=driver.find_element_by_name("subject")
+title.send_keys("标题")
+driver.switch_to.frame(driver.find_element_by_tag_name("iframe"))
+neirong=driver.find_element_by_tag_name("body")
+neirong.send_keys("%%%%%%%%%%%%%%adjfjka")
+driver.switch_to.window(driver.current_window_handle)
+fabiao=driver.find_element_by_id("postsubmit")
+fabiao.click()
+driver.switch_to.window(driver.window_handles[0])
+time.sleep(5)
+huifu=driver.find_element_by_id("post_reply")
+huifu.click()
+driver.switch_to.window(driver.current_window_handle)
+hfnr=driver.find_element_by_name("message")
+hfnr.send_keys("huifufhuifhuif")
+hffb=driver.find_element_by_id("postsubmit")
+hffb.click()
+tuichu=driver.find_element_by_link_text("退出")
+tuichu.click()
