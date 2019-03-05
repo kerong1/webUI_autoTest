@@ -138,14 +138,14 @@ class ToupiaoPage(BasePage):
         time.sleep(3)
         self.jihuo()
     def tx1(self):
-        a=self.text(*self.text1)
-        b=self.text(*self.t1)
-        c = self.text(*self.text2)
-        d = self.text(*self.t2)
-        e = self.text(*self.title)
-        print("选项：", a, "；投票人数是：", b)
-        print("选项：", c, "；投票人数是：", d)
-        print("主题是：", e)
+        xuanxiang1=self.text(*self.text1)
+        baifenbi1=self.text(*self.t1)
+        xuanxiang2 = self.text(*self.text2)
+        baifenbi2 = self.text(*self.t2)
+        zhuti = self.text(*self.title)
+        print("选项：", xuanxiang1, "；投票人数是：", baifenbi1)
+        print("选项：", xuanxiang2, "；投票人数是：", baifenbi2)
+        print("主题是：", zhuti)
 
 
 

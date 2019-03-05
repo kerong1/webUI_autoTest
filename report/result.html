@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>单元测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-02-28 17:42:39</p>
-<p class='attribute'><strong>Duration:</strong> 0:03:07.687367</p>
-<p class='attribute'><strong>Status:</strong> Pass 2 Error 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2019-03-04 21:03:20</p>
+<p class='attribute'><strong>Duration:</strong> 0:03:22.342416</p>
+<p class='attribute'><strong>Status:</strong> Pass 4</p>
 
 <p class='description'>用例执行情况</p>
 </div>
@@ -222,7 +222,7 @@ function showOutput(id, name) {
 </tr>
 
 <tr class='passClass'>
-    <td>testsuites.test_discuz1_search.Discuz1Search</td>
+    <td>test_discuz1_search.Discuz1Search</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
@@ -254,96 +254,31 @@ pt1.1:
     </td>
 </tr>
 
-<tr class='errorClass'>
-    <td>testsuites.test_discuz2_search.Discuz2Search</td>
+<tr class='passClass'>
+    <td>test_discuz2_search.Discuz2Search</td>
+    <td>1</td>
     <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td>1</td>
     <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
 </tr>
 
-<tr id='ft2.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_discuz2</div></td>
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_discuz2</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
-        error</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        pass</a>
 
-    <div id='div_ft2.1' class="popup_window">
+    <div id='div_pt2.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft2.1: Traceback (most recent call last):
-  File "E:\Dis\testsuites\test_discuz2_search.py", line 15, in test_discuz2
-    a.addnewmodule("yyyyy")
-  File "E:\Dis\Pageobjects\discuz_homepage.py", line 77, in addnewmodule
-    self.click(*self.add_page_luntan)
-  File "E:\Dis\Pageobjects\base.py", line 46, in click
-    el.click()
-AttributeError: 'NoneType' object has no attribute 'click'
-Traceback (most recent call last):
-  File "E:\Dis\testsuites\test_discuz2_search.py", line 15, in test_discuz2
-    a.addnewmodule("yyyyy")
-  File "E:\Dis\Pageobjects\discuz_homepage.py", line 77, in addnewmodule
-    self.click(*self.add_page_luntan)
-  File "E:\Dis\Pageobjects\base.py", line 46, in click
-    el.click()
-AttributeError: 'NoneType' object has no attribute 'click'
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr class='errorClass'>
-    <td>testsuites.test_discuz3_search.Discuz3Search</td>
-    <td>1</td>
-    <td>0</td>
-    <td>0</td>
-    <td>1</td>
-    <td><a href="javascript:showClassDetail('c3',1)">Detail</a></td>
-</tr>
-
-<tr id='ft3.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_discuz3</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.1')" >
-        error</a>
-
-    <div id='div_ft3.1' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft3.1: Traceback (most recent call last):
-  File "E:\Dis\testsuites\test_discuz3_search.py", line 15, in test_discuz3
-    title=s.sousuo("haotest")
-  File "E:\Dis\Pageobjects\discuz_homepage.py", line 96, in sousuo
-    title=self.text(*self.sousuo_page_title)
-  File "E:\Dis\Pageobjects\base.py", line 55, in text
-    return el.text
-AttributeError: 'NoneType' object has no attribute 'text'
-Traceback (most recent call last):
-  File "E:\Dis\testsuites\test_discuz3_search.py", line 15, in test_discuz3
-    title=s.sousuo("haotest")
-  File "E:\Dis\Pageobjects\discuz_homepage.py", line 96, in sousuo
-    title=self.text(*self.sousuo_page_title)
-  File "E:\Dis\Pageobjects\base.py", line 55, in text
-    return el.text
-AttributeError: 'NoneType' object has no attribute 'text'
-
+pt2.1: 
 
         </pre>
     </div>
@@ -353,7 +288,40 @@ AttributeError: 'NoneType' object has no attribute 'text'
 </tr>
 
 <tr class='passClass'>
-    <td>testsuites.test_discuz4_search.Discuz4Search</td>
+    <td>test_discuz3_search.Discuz3Search</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c3',1)">Detail</a></td>
+</tr>
+
+<tr id='pt3.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_discuz3</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.1')" >
+        pass</a>
+
+    <div id='div_pt3.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.1: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_discuz4_search.Discuz4Search</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
@@ -388,9 +356,9 @@ pt4.1:
 <tr id='total_row'>
     <td>Total</td>
     <td>4</td>
-    <td>2</td>
+    <td>4</td>
     <td>0</td>
-    <td>2</td>
+    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>
